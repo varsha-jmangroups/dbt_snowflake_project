@@ -1,0 +1,17 @@
+version: 2
+ 
+sources:
+    - name: rawsource
+      database: RETAIL_ANALYTICS
+      schema: RAW
+      tables:
+          - name: CUSTOMERS
+          - name: EMPLOYEES
+          - name: ORDERS
+          - name: ORDER_LINE_ITEMS
+          - name: PRICING
+          - name: PRODUCTS
+          - name: PROMOTIONS
+          - name: RETURNS
+          - name: STORES
+          - name: SUPPLIERS
